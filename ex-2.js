@@ -14,8 +14,9 @@ isWeekday = true;
 hasBoughtProductFromITCategory = false;
 hasAttendedDiscountEvent =true;
 isPlatinum = false;
-hasPromotion = {
+hasPromotion = 
 
-lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory && !hasAttendedDiscountEvent  }
+lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory && !hasAttendedDiscountEvent || isPlatinum
+
 
 console.log(hasPromotion);
